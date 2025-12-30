@@ -30,8 +30,6 @@ const userSchema = new Schema(
         coverImage: {
             type: String
         },
-
-        // ✅ THIS WAS MISSING
         watchHistory: [
             {
                 type: Schema.Types.ObjectId,
